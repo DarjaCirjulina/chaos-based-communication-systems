@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository provides reproducible LTspice, MATLAB (R2023b), and Python example codes developed for the PhD thesis *Design and Performance Evaluation of Chaos-Based Communication Systems under Noise and Multipath Conditions*. It includes chaotic oscillator modeling, synchronization under noisy conditions, QCSK and FM-CSK communication system simulations, and experimental validation using Analog Discovery Pro 3000. The repository is structured for academic reproducibility and research use in nonlinear dynamics and chaos-based communication systems.
+This repository provides reproducible LTspice, MATLAB (R2023b), and Python example codes developed for the PhD thesis *Design and Performance Evaluation of Chaos-Based Communication Systems under Noise and Multipath Conditions*. It includes chaotic oscillator modeling, synchronization under noisy conditions, simulations of QCSK and FM-CSK communication systems, and experimental validation using the Analog Discovery Pro 3000. The repository is structured for academic reproducibility and research use in nonlinear dynamics and chaos-based communication systems.
 
 ---
 
@@ -93,13 +93,13 @@ Bit Generation → Drive Oscillator → Symbol Mapping and Transmission Channel 
 
 ---
 
-## 5. Experimental Validation – Analog Discovery Pro
+## 5. Experimental Validation – Analog Discovery Pro 3450
 
 This section contains example scripts for hardware-based validation of the chaotic communication system.
 
 System flow:
 
-MATLAB (Bit Generation) → Python (ADP3000 Control) → Hardware Transmission → Signal Acquisition → Performance Evaluation
+MATLAB (Bit Generation) → Python (ADP3450 Control) → Hardware Transmission → Signal Acquisition → Performance Evaluation
 
 Python scripts configure and control the Analog Discovery Pro, generate excitation signals, acquire response oscillator signals, and store measurement data for further analysis.
 
