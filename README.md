@@ -135,6 +135,6 @@ If this repository supports your research, please cite the associated thesis:
 
 Author: Darja Cirjulina  
 Title: Design and Performance Evaluation of Chaos-Based Communication Systems under Noise and Multipath Conditions  
-Institution: Riga Technical University
+Institution: Riga Technical University  
 Year: 2025  
 
