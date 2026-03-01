@@ -45,7 +45,7 @@ for n=1:Signal % create 9 netlists and simulate them automatically
     %% Call batch files to simulate netlist and close Ltspice after pause
     
     path_of_exe='C:\Program Files\LTC\LTspiceXVII\XVIIx64.exe';
-    netlist = 'RX_oscillator.net';
+    netlist = 'V_TX.net';
     system(sprintf('"%s" -Run -b "%s" -j12',path_of_exe,netlist));
     
     %% Read data from simulation ".raw" file
@@ -83,3 +83,4 @@ for n=1:Signal % create 9 netlists and simulate them automatically
     
     
 end
+
